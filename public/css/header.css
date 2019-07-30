@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&subset=cyrillic');
+* {
+  background-color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+ul, li{
+  list-style-type: none; /*отключаем стандарт маркеры списка*/
+}
+#logo {
+  color: green;
+}
+.header{
+
+}
+.logo{
+  
+}
+.header-hold{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.user-li{
+  margin: 0 10px;
+  max-width: 100%;
+}
+#search{
+
+}
+
+#menu-top{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 990px) {
+
+}
+
+@media (max-width: 760px) {
+
+}
+
+@media (max-width: 440px) {
+
+}
