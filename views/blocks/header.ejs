@@ -1,22 +1,23 @@
-
 <header class="header">
-  <div class="header-hold">
-    <div id="logo"><a href="/"><img src="/img/logo.jpg" class="logo" alt="видео"></a></div>
-    <div id="menu-top">
-      <span class="current user-li">Видео</span>
-      <a href="/foto" class="user-li" target="_self">Фото</a>
-      <a href="/news" class="user-li" target="_self">Новости</a>
-    </div>
-    <div id="search">
-      <form class="search-site" action="" method="">
-        <input type="text" placeholder="Поиск видео" name="" value="">
-        <input type="submit" name="" value="">
+  <div class="header_container"><!-- Правильно ли создавать в хэдере еще один контейнер в котором будут логотип меню и тд?-->
+    <div class="header_container_logo"><a href="/"><img src="/img/logo.jpg" class="logo" alt="видео"></a></div>
+    <nav class="header_container_main_menu">
+      <ul class="main_menu_ul">
+        <li class="main_menu_ul_li"><a href="/">Видео</a></li>
+        <li class="main_menu_ul_li"><a href="/foto" target="_self">Фото</a></li>
+        <li class="main_menu_ul_li"><a href="/news" target="_self">Новости</a></li>
+      </ul>
+    </nav>
+    <div class="header_container_search">
+      <form class="search_form" action="" method="">
+        <button type="text" placeholder="Поиск видео" name="" value="">
+        <button type="submit" name="" value="">
       </form>
     </div>
-    <div class="user-menu">
-      <ul class="user-ul">
-        <li class="user-li"><a href="/signin">Вход</a></li>
-        <li class="user-li"><a href="/signup">Регистрация</a></li>
+    <div class="header_container_auth_menu">
+      <ul class="auth_menu_ul">
+        <li class="auth_menu_ul_li"><a href="/signin">Вход</a></li>
+        <li class="auth_menu_ul_li"><a href="/signup">Регистрация</a></li>
       </ul>
     </div>
   </div>
